@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xlr.system.elity.fpstore" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="Fast Price" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".listBridge"
+            android:label="@string/title_activity_list_bridge" >
+        </activity>
+        <activity
+            android:name=".listProducts"
+            android:label="@string/title_activity_list_products" >
+        </activity>
+        <activity
+            android:name=".listSustancias"
+            android:label="@string/title_activity_list_sustancias" >
+        </activity>
+        <activity
+            android:name=".listKidsProducts"
+            android:label="@string/title_activity_list_kids_products" >
+        </activity>
+        <activity
+            android:name=".listPastillas"
+            android:label="@string/title_activity_list_pastillas" >
+        </activity>
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".PanelControl"
+            android:label="@string/title_activity_panel_control" >
+        </activity>
+    </application>
+
+</manifest>
