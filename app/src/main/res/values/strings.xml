@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FPstore</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_drugstores">Drugstores</string>
+    <string name="title_activity_list_bridge">listBridge</string>
+    <string name="title_activity_list_products">listProducts</string>
+    <string name="title_activity_list_sustancias">listSustancias</string>
+    <string name="title_activity_list_kids_products">listKidsProducts</string>
+    <string name="title_activity_list_pastillas">listPastillas</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_panel_control">PanelControl</string>
+</resources>
