@@ -1,0 +1,317 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ContainerScroll">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:id="@+id/Top">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="3">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="245dp"
+                            android:layout_height="75dp"
+                            android:id="@+id/imageView"
+                            android:src="@mipmap/log1"
+                            android:scaleType="fitStart" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageButton"
+                            android:src="@mipmap/dir"
+                            android:background="#00000000"
+                            android:scaleType="fitCenter"
+                            android:paddingRight="10dp"
+                            android:onClick="activityLogin" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/N1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/Nivel1"
+                    android:paddingBottom="30dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:scaleType="fitCenter"
+                            android:id="@+id/imageButton2"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/rectangles27"
+                            android:background="#00000000"
+                            android:padding="10dp"
+                            android:onClick="activityListProducts" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Todos"
+                            android:background="#264859"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+                            android:padding="7dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:scaleType="fitCenter"
+                            android:id="@+id/imageButton4"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/search81"
+                            android:background="#00000000"
+                            android:padding="10dp"
+                            android:onClick="activitySearch" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Buscar"
+                            android:background="#264859"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+                            android:padding="7dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                android:paddingBottom="30dp"
+                android:id="@+id/N2">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/Nivel2">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:scaleType="fitCenter"
+                            android:id="@+id/imageButton8"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/medical4"
+                            android:background="#00000000"
+                            android:padding="10dp"
+                            android:onClick="activityListSustancias" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sustancias"
+                            android:background="#264859"
+                            android:gravity="center_horizontal"
+                            android:textColor="#ffffff"
+                            android:padding="7dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:scaleType="fitCenter"
+                            android:id="@+id/imageButton7"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/medical12"
+                            android:background="#00000000"
+                            android:padding="10dp"
+                            android:onClick="activityListPastillas" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pildoras"
+                            android:background="#264859"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+                            android:padding="7dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/N3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/Nivel3"
+                    android:paddingBottom="30dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:scaleType="fitCenter"
+                            android:id="@+id/imageButton6"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/kids1"
+                            android:background="#00000000"
+                            android:padding="10dp"
+                            android:onClick="activityListKids" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Niños"
+                            android:background="#264859"
+                            android:gravity="center_horizontal"
+                            android:textColor="#ffffff"
+                            android:padding="7dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#efefef"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp">
+
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="90dp"
+                            android:scaleType="fitCenter"
+                            android:id="@+id/imageButton9"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@mipmap/gps45"
+                            android:background="#00000000"
+                            android:padding="10dp"
+                            android:onClick="activityListBridge" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Farmacias"
+                            android:background="#264859"
+                            android:gravity="center_horizontal"
+                            android:textColor="#fff"
+                            android:padding="7dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
